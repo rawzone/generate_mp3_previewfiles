@@ -1,0 +1,7 @@
+Script to generate preview files of MP3 releases.
+skip 120 sec, make a 2min preview, make fade in/out over 5 sec, reencode to 192 KBit/s and copy the ID3 tags from orginal file.
+
+Usage: Place in folder with MP3 files to make preview of, run the script and wait.
+
+Requires: mpg123, sox, lame id3cp
+
